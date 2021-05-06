@@ -45,7 +45,7 @@
 
 - 有`[Symbol.toPrimitive]`属性：
 
-```
+```javascript
   let obj = {
     name: 'jack',
     money: 1,
@@ -73,7 +73,7 @@
 
 - 没有`[Symbol.toPrimitive]`属性
 
-```
+```javascript
   let obj = {
     name: 'jack',
     money: 1,
@@ -96,7 +96,7 @@
 
 存在显示声明的`toString()`方法，并且不存在其他类型转换方法，例如`valueOf()`或者`[Symbol.toPrimitive]`，则无论对象是按照什么类型转换，都执行`toString()`方法。（存在显示的 toString，则只找 toString，不找 valueOf）
 
-```
+```javascript
  // if there exsits a toString(), and no other functions such as valueOf() or [symbol.toPromitive], then all the conversions will excute toString()
   let obj = {
     name: 'jack',

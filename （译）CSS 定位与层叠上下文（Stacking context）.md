@@ -6,7 +6,7 @@
 
 在没有定位的情况下， 这个渲染顺序是由 HTML 元素的顺序决定的，例如有以下 HTML 结构：
 
-```
+```html
 <div>one</div>
 <div>two</div>
 <div>three</div>
@@ -30,7 +30,7 @@
 
 用例子来阐述下：
 
-```
+```html
 <div class="box one positioned">
  one
  <div class="absolute">nested</div>
@@ -45,7 +45,7 @@
 
 以下为 CSS 代码
 
-```
+```css
 body {
  margin: 40px;
 }

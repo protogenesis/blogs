@@ -23,7 +23,7 @@
 
 ###### 一个最简单的例子
 
-```
+```javascript
 let user = {  
  name: 'John',  
 };
@@ -35,7 +35,7 @@ let user = {
 
 如果`user`这个变量的值被覆盖的话，这个引用就消失了。
 
-```
+```javascript
 user = null;
 ```
 
@@ -47,7 +47,7 @@ user = null;
 
 现在我们想象一下把`user`的值复制一份给`admin`:
 
-```
+```javascript
 let user = {  
  name: 'John'  
 };  
@@ -59,7 +59,7 @@ let admin = user;
 
 如果我们继续刚刚的步骤：
 
-```
+```javascript
 user = null;
 ```
 
@@ -69,7 +69,7 @@ user = null;
 
 一个更加复杂的例子，一个家庭：
 
-```
+```javascript
 function marry(man, woman) {  
  woman.husband = man;  
  man.wife = woman;  
@@ -97,7 +97,7 @@ let family = marry({
 
 现在我们移除掉两个引用：
 
-```
+```javascript
 delete family.father;  
 delete family.mother.husband;
 ```
@@ -122,7 +122,7 @@ delete family.mother.husband;
 
 还是刚刚的 family 例子，然后再加上一条：
 
-```
+```javascript
 family = null;
 ```
 
