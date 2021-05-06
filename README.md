@@ -2,7 +2,7 @@
 
 [逻辑赋值运算符 logical assianment operators](./逻辑赋值运算符.md)
 
-[HTTP 和 HTTPS 的区别](./HTTP 和 HTTPS.md)
+[HTTP 和 HTTPS 的区别](./HTTP%20和%20HTTPS.md)
 
 [纯函数是什么？](./纯函数是什么？.md)
 
