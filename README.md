@@ -1,5 +1,7 @@
 # 目录
 
+[数字分隔符（Numeric separators）](数字分隔符（Numeric separators）.md)
+
 [逻辑赋值运算符 logical assianment operators](./逻辑赋值运算符.md)
 
 [HTTP 和 HTTPS 的区别](./HTTP%20和%20HTTPS.md)
