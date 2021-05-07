@@ -10,7 +10,7 @@
 
 [浏览器的渲染流程（译）](浏览器的渲染流程（译）.md)
 
-[译）CSS 定位与层叠上下文（Stacking context）](（译）CSS%20定位与层叠上下文（Stacking%20context）.md)
+[（译）CSS 定位与层叠上下文（Stacking context）](（译）CSS%20定位与层叠上下文（Stacking%20context）.md)
 
 [CSS 之层叠与继承](CSS%20之层叠与继承.md)
 
