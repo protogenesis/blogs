@@ -18,13 +18,13 @@
 
 [事件循环：微任务与宏任务](事件循环：微任务与宏任务.md)
 
-[JavaScript之对象类型转换](JavaScript之对象类型转换.md)
+[JavaScript 之对象类型转换](JavaScript之对象类型转换.md)
 
-[JavaScript之内存回收机制(译文)](JavaScript之内存回收机制(译文).md)
+[JavaScript 之内存回收机制(译文)](JavaScript之内存回收机制(译文).md)
 
-[JavaScript延迟脚本之async和defer的区别](JavaScript延迟脚本之async和defer的区别.md)
+[JavaScript 延迟脚本之 async 和 defer 的区别](JavaScript延迟脚本之async和defer的区别.md)
 
-[BFC(块级格式化上下文)的特点和应用场景](BFC(块级格式化上下文)的特点和应用场景.md)
+[BFC (块级格式化上下文)的特点和应用场景](BFC(块级格式化上下文)的特点和应用场景.md)
 
 
 
