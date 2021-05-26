@@ -29,3 +29,10 @@
 ```
 
 保存或重启 Live Server，刷新网页，后面改动样式也会自动更新了。
+
+参考：
+
+> https://github.com/ritwickdey/live-server-web-extension/blob/master/docs/Setup.md
+>
+> https://github.com/ritwickdey/vscode-live-server/blob/master/docs/faqs.md#how-to-configure-the-settings-in-my-project
+
