@@ -1,6 +1,6 @@
 # 目录
 
-[React-18-新特性-Automatic-batching](./React-18-新特性-Automatic-batching)
+[React-18-新特性-Automatic-batching](./React-18-新特性-Automatic-batching.md)
 
 [H5 中阻止浏览器前进后退手势](./H5%20中阻止浏览器前进后退手势.md)
 
