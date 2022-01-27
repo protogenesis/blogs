@@ -10,7 +10,7 @@ batching 即在更新数据 data 时，如果存在多个 setState，React 会�
 
 例如：假如在一次鼠标点击事件中，使用了两次 setState 操作，React 总是会把两次 setState 操作合并成一次，所以两次 setState 操作只会产生一次 re-render。例如下面的代码，虽然在事件处理函数中，有两次 setState 操作，但只会 re-render 一次：
 
-```react
+```jsx
 function App() {
   const [count, setCount] = useState(0);
   const [flag, setFlag] = useState(false);
@@ -38,7 +38,7 @@ React 18 以前并不是在所有情况下都是自动 batch，例如你在上�
 
 因为 React 18 前只会在浏览器事件中[（也就是通过 React 绑定的事件 ）](https://github.com/facebook/react/issues/14259#issuecomment-439632622)才会合并 setState，在网络请求的回调函数中再去 setState，此时事件已经处理，所以会产生两次 re-render。
 
-```react
+```js
 function App() {
   const [count, setCount] = useState(0);
   const [flag, setFlag] = useState(false);
@@ -69,7 +69,7 @@ function App() {
 
 React 18 中有一个 [CreatRoot](https://github.com/reactwg/react-18/discussions/5)，所有的 setState 操作都会自动进行 batch，无论他们是在 Promise, setTimeout 或是其他函数中，它们和在浏览器事件中的表现是一样的。这么做是为了提升应用的性能。
 
-```react
+```js
 function App() {
   const [count, setCount] = useState(0);
   const [flag, setFlag] = useState(false);
@@ -100,7 +100,7 @@ function App() {
 
 React 会自动进行 batch，无论它们在哪执行，例如：
 
-```react
+```js
 function handleClick() {
   setCount(c => c + 1);
   setFlag(f => !f);
@@ -111,7 +111,7 @@ function handleClick() {
 
 又例如：
 
-```react
+```js
 setTimeout(() => {
   setCount(c => c + 1);
   setFlag(f => !f);
@@ -123,7 +123,7 @@ setTimeout(() => {
 
 又例如：
 
-```react
+```js
 fetch(/*...*/).then(() => {
   setCount(c => c + 1);
   setFlag(f => !f);
@@ -134,7 +134,7 @@ fetch(/*...*/).then(() => {
 
 又例如：
 
-```react
+```js
 elm.addEventListener('click', () => {
   setCount(c => c + 1);
   setFlag(f => !f);
@@ -151,7 +151,7 @@ elm.addEventListener('click', () => {
 
 通常情况下，自动 batch 是安全的。但是如果某些代码的执行条件依赖于某个 setState 更新完毕后的 DOM，则可以使用 ```ReactDOM.flushSync()```	来阻止自动 batch。
 
-```react
+```js
 import { flushSync } from 'react-dom'; // 注意: react-dom, not react
 
 function handleClick() {
@@ -176,7 +176,7 @@ function handleClick() {
 
 在 React 17 及以前的版本中，Class 组件在事件处理中进行 setState 会立即更新 state：
 
-```react
+```js
 handleClick = () => {
   setTimeout(() => {
     this.setState(({ count }) => ({ count: count + 1 }));
@@ -191,7 +191,7 @@ handleClick = () => {
 
 但是在 React 18 中，情况不是这样。因为多次的 setState 操作会自动进行 batch，React 在第一次进行 setState 时不会同步更新 state，它会在浏览器的下一次 tick 中更新：
 
-```react
+```js
 handleClick = () => {
   setTimeout(() => {
     this.setState(({ count }) => ({ count: count + 1 }));
@@ -208,7 +208,7 @@ See [sandbox](https://codesandbox.io/s/interesting-rain-hkjqw?file=/src/App.js)
 
 但是这种情况在 React 18 中是可以避免的，那就是使用 ```ReactDOM.flushSync``` 来强制更新，但建议少用：
 
-```react
+```js
 handleClick = () => {
   setTimeout(() => {
     ReactDOM.flushSync(() => {
@@ -229,7 +229,7 @@ See [sandbox](https://codesandbox.io/s/hopeful-minsky-99m7u?file=/src/App.js)
 
 有些 React 库使用这个没有在文档中提及的 API 来使事件函数外的 setState 强制进行 batch。
 
-```react
+```js
 import { unstable_batchedUpdates } from 'react-dom';
 
 unstable_batchedUpdates(() => {
