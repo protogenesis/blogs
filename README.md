@@ -1,5 +1,7 @@
 # 目录
 
+[React-18-新特性-Automatic-batching](./React-18-新特性-Automatic-batching)
+
 [H5 中阻止浏览器前进后退手势](./H5%20中阻止浏览器前进后退手势.md)
 
 [给 Node.js 搭建的 Express 项目增加网页热更新功能.md](给%20Node.js%20搭建的%20Express%20项目增加网页热更新功能.md)
