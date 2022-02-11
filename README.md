@@ -1,5 +1,7 @@
 # 目录
 
+[函数柯里化（Currying）（译）](./函数柯里化（Currying）.md)
+
 [什么时候使用useMemo、useCallback（译）](./什么时候使用useMemo、useCallback（译）.md)
 
 [React-18-新特性-Automatic-batching](./React-18-新特性-Automatic-batching.md)

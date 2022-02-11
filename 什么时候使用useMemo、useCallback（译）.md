@@ -174,7 +174,7 @@ function RenderPrimes({iterations, multiplier}) {
 
 使用 useCallback 和 useMemo 会使代码更加复杂，并且不利于协同开发，你可以会漏掉一个依赖项；而且在调用 useCallback/useMemo 这些 hooks 时，有可能会带来更糟糕的性能，因为它中断了垃圾回收机制「garbage collection」。但是如果能够带来可见的性能提升的话，这个成本都是可以承受的。
 
-> Referencies:
+> References:
 >
 > https://kentcdodds.com/blog/usememo-and-usecallback
 
