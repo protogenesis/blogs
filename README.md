@@ -2,6 +2,14 @@
 
 [新提案-ECMA-2022-array-find-from-last](./ECMA-2022-array-find-from-last.md)
 
+[正则表达式-Lookahead、LookBehind](./正则表达式-Lookahead、LookBehind.md)
+
+[正则表达式-word-boundary](./正则表达式-word-boundary.md)
+
+[正则表达式-模式与符号（patterns and flags）](./正则表达式-模式与符号（patterns and flags）.md)
+
+[正则表达式-字符类](./正则表达式-字符类.md)
+
 [函数柯里化（Currying）（译）](./函数柯里化（Currying）.md)
 
 [什么时候使用useMemo、useCallback（译）](./什么时候使用useMemo、useCallback（译）.md)
