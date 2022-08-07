@@ -6,7 +6,7 @@
 
 [正则表达式-word-boundary](./正则表达式-word-boundary.md)
 
-[正则表达式-模式与符号（patterns and flags）](./正则表达式-模式与符号（patterns and flags）.md)
+[正则表达式-模式与符号-patterns-and-flags](./正则表达式-模式与符号-patterns-and-flags.md)
 
 [正则表达式-字符类](./正则表达式-字符类.md)
 
