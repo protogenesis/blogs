@@ -1,5 +1,7 @@
 # 目录
 
+[Vite-TS-Vue3-配置代码错误提示](./Vite-TS-Vue3-配置代码错误提示)
+
 [新提案-ECMA-2022-array-find-from-last](./ECMA-2022-array-find-from-last.md)
 
 [正则表达式-Lookahead、LookBehind](./正则表达式-Lookahead、LookBehind.md)
