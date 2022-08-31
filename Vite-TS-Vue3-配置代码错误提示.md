@@ -21,3 +21,7 @@ export default () => {
 ```
 
 重新启动以后，如果代码中出现类型错误，终端和网页中都会弹出错误提示。
+
+
+
+在线演示：https://stackblitz.com/edit/vitejs-vite-e8pddl
