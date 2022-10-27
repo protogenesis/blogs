@@ -1,5 +1,7 @@
 # 目录
 
+[TypeScript 类型 tips](./TypeScript%20类型%20tips.md)
+
 [使用 Rollup.js 按需编译构建 TS 项目](./使用-Rollup.js-按需编译构建-TS-项目.md)
 
 [Vite + TS + Vue3 配置代码错误提示](./Vite-TS-Vue3-配置代码错误提示.md)
