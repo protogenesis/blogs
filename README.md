@@ -1,6 +1,8 @@
 # 目录
 
-[React-Vite-TS-项目中排序 import](./React-Vite-TS-项目中排序%20import.md)
+[在 Vite 项目中引用 tailwindcss 配置](./%E5%9C%A8-Vite-%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%BC%95%E7%94%A8-tailwindcss-%E9%85%8D%E7%BD%AE.md)
+
+[React + Vite + TS 项目中排序 import](./React-Vite-TS-项目中排序%20import.md)
 
 [TypeScript 类型 tips](./TypeScript%20类型%20tips.md)
 
