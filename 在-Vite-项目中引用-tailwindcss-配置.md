@@ -68,9 +68,11 @@ module.exports = {
    const fullConfig = resolveConfig(tailwindConfig)
    console.log(fullConfig.theme.colors.primary) // #17fd17
 
-
 ---
-参考：
+
+供参考的模版项目地址：https://github.com/protogenesis/Renference-tailwind-configs-in-Vite
+
+参考链接：
   > https://stackoverflow.com/questions/66402879/in-vite2-how-to-import-an-esmodule-in-tailwind-config-js/66406070#66406070
 
   > https://lobotuerto.com/notes/import-tailwind-config-in-vite
