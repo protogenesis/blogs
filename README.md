@@ -1,20 +1,30 @@
 # 目录
 
-[新提案-ECMA-2022-array-find-from-last](./ECMA-2022-array-find-from-last.md)
+[在 Vite 项目中引用 tailwindcss 配置](./%E5%9C%A8-Vite-%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%BC%95%E7%94%A8-tailwindcss-%E9%85%8D%E7%BD%AE.md)
 
-[正则表达式-Lookahead、LookBehind](./正则表达式-Lookahead、LookBehind.md)
+[React + Vite + TS 项目中排序 import](./React-Vite-TS-项目中排序%20import.md)
 
-[正则表达式-word-boundary](./正则表达式-word-boundary.md)
+[TypeScript 类型 tips](./TypeScript%20类型%20tips.md)
 
-[正则表达式-模式与符号-patterns-and-flags](./正则表达式-模式与符号-patterns-and-flags.md)
+[使用 Rollup.js 按需编译构建 TS 项目](./使用-Rollup.js-按需编译构建-TS-项目.md)
 
-[正则表达式-字符类](./正则表达式-字符类.md)
+[Vite + TS + Vue3 配置代码错误提示](./Vite-TS-Vue3-配置代码错误提示.md)
+
+[新提案 ECMA2022 Array - find from last](./ECMA-2022-array-find-from-last.md)
+
+[正则表达式 Lookahead、LookBehind](./正则表达式-Lookahead、LookBehind.md)
+
+[正则表达式 word-boundary](./正则表达式-word-boundary.md)
+
+[正则表达式 模式与符号 patterns and flags](./正则表达式-模式与符号-patterns-and-flags.md)
+
+[正则表达式 - 字符类](./正则表达式-字符类.md)
 
 [函数柯里化（Currying）（译）](./函数柯里化（Currying）.md)
 
 [什么时候使用useMemo、useCallback（译）](./什么时候使用useMemo、useCallback（译）.md)
 
-[React-18-新特性-Automatic-batching](./React-18-新特性-Automatic-batching.md)
+[React 18 新特性 Automatic batching](./React-18-新特性-Automatic-batching.md)
 
 [H5 中阻止浏览器前进后退手势](./H5%20中阻止浏览器前进后退手势.md)
 
