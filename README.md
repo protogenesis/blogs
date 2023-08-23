@@ -1,3 +1,5 @@
+通过 Github pages 访问获取更好的阅读体验：https://protogenesis.github.io/blogs/
+
 # 目录
 
 [React setState 的时候是怎么去渲染的？](./React%20setState%20%E6%98%AF%E6%80%8E%E4%B9%88%E6%B8%B2%E6%9F%93%E7%9A%84%EF%BC%9F.md)
