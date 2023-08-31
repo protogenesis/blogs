@@ -2,7 +2,7 @@
 
 
 
-Jotai 中的数据（store）通过 memory 保存，和框架没有关系。
+Jotai 中的数据（store）通过 memory 保存，和框架没有关系，内部的 store 实例使用了 WeakMap 做 atom 的映射，并且允许存在多个 store 实例，如果需要对不同的 store 对象进行隔离，可以在 React 中使用 jotai 提供的 Provider 组件，但是一般在项目开发中，只会用到一个 store 实例。
 
 
 
