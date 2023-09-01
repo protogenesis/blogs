@@ -1,3 +1,9 @@
+---
+title: "JavaScript 之内存回收机制（译文）"
+description: "垃圾清除，前端博客，Chrome V8"
+author: protogenesis
+---
+
 #### JavaScript 的内存管理（垃圾回收机制）
 
 在 JavaScript 中，内存管理是自动执行并且不可见的。我们创建原始数据类型，对象，函数...，都需要占用内存。

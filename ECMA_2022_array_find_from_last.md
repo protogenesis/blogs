@@ -1,3 +1,9 @@
+---
+title: "ECMA 2022 array find from last"
+description: "ECMA 新语法，Array.findLastIndex"
+author: protogenesis
+---
+
 这是一个新提案，在 ECMA 2022（第十三版本） 中已经实施，目前大多数浏览器都已经支持。
 
 ##### 为什么有这个提案？

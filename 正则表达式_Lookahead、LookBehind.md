@@ -1,3 +1,9 @@
+---
+title: "正则表达式 Lookahead、LookBehind"
+description: "正则表达式零宽断言，向前向后查找"
+author: protogenesis
+---
+
 某些情况下，我们需要找在某些字符后面或前面的字符，在正则表达式中，他们叫做 "lookaroud"。
 
 题目（下文有引用）：

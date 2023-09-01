@@ -1,3 +1,9 @@
+---
+title: "CSS 之层叠与继承"
+description: "深入 CSS 概念，层级关系"
+author: protogenesis
+---
+
 ##### CSS 层叠（Cascading）指的是某个元素会根据样式规则的优先级来设置某个元素的外观。
 
 ###### 层叠样式的优先级主要有三方面：

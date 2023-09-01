@@ -1,3 +1,9 @@
+---
+title: "Vite / TS / Vue3 配置代码错误提示"
+description: "ESLint，prettier，前端工程化，TypeScript，格式检查"
+author: protogenesis
+---
+
 Vite + TS + Vue3 配置代码错误提示
 
 在 Vite 中，当类型检测工具检测到错误时，项目还是可以正常运行的，如果需要在终端和网页中弹出错误提示，则需要新增一个 Vite 配置：

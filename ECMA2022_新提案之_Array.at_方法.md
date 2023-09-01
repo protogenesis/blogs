@@ -1,3 +1,9 @@
+---
+title: "ECMA2022 新提案之 Array.at 方法"
+description: "ECMA 新语法，数组 API"
+author: protogenesis
+---
+
 ##### 所有的”索引类“（Array，String，TypedArray）都添加 .at() 方法
 
 目前已经在 ECMA 2022 中实施，大部分浏览器都已经支持。

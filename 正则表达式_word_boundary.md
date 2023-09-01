@@ -1,3 +1,9 @@
+---
+title: "正则表达式 word boundary"
+description: "正则表达式字符边界，\b 用法"
+author: protogenesis
+---
+
 「字符边缘」 ```\b``` 用于匹配是否处于字符边缘。
 
 有三种情况，字符边缘 ```\b``` 会匹配到：

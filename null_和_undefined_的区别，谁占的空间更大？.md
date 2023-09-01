@@ -1,3 +1,9 @@
+---
+title: "null 和 undefined 的区别，谁占的空间更大？"
+description: "深入理解 null 与 undefined 的内存占用"
+author: protogenesis
+---
+
 在 JavaScript 中，```null``` 和 ```undefined``` 都表示值的缺失，但它们在使用上有不同的含义和细微的差异。
 
 ### 1. 语义：

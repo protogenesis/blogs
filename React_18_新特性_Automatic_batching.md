@@ -1,3 +1,9 @@
+---
+title: "React 18 新特性 Automatic batching"
+description: "React 特性，概念，自动合并 setState"
+author: protogenesis
+---
+
 ## React-18-新特性-Automatic-batching（译）
 
 ### 简介

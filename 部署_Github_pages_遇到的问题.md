@@ -1,3 +1,9 @@
+---
+title: "部署 Github pages 遇到的问题"
+description: "Github Pages SEO，怎么做 SEO？"
+author: protogenesis
+---
+
 当部署某个项目到 Github Pages 的时候，只需要根据网上的教程操作就可以了。
 
 但是在实际部署完以后发现，在项目中 Readme 的跳转链接中如果带有一些英文字符，则无法正确的解析。

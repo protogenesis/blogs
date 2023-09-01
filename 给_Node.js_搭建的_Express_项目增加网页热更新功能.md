@@ -1,3 +1,9 @@
+---
+title: "给 Node.js 搭建的 Express 项目增加网页热更新功能"
+description: "Node.js 脚手架，项目结构，Live server"
+author: protogenesis
+---
+
 通过 Node.js 和 Express 搭建的后台项目，通过 Express 来渲染 HTML 模版，虽然后端可以通过 [nodemon](https://www.npmjs.com/package/nodemon) 来实现热更新，但是热更新后并不会直接反应到网页上，而是要刷新一遍，因为浏览器并没有热更新。
 
 解决这个问题的办法就是通过 [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 这个插件。

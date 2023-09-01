@@ -1,3 +1,9 @@
+---
+title: "React setState 是怎么渲染的？"
+description: "React 源码，setState 原理"
+author: protogenesis
+---
+
 ## React setState 的时候是怎么去渲染的？
 
 首先得弄清一个概念，就是 react 和 react-dom / react-native 或者其他的 renderer 包是分开的。react 只提供了 Component, createElement, hooks 等方法，而渲染操作是由 react-dom 去完成的。当我们使用 setState 时，react 把这个处理函数委派给了 renderer, renderer 来执行渲染。

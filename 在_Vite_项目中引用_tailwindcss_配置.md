@@ -1,3 +1,9 @@
+---
+title: "在 Vite 项目中引用 TailWinCSS 配置"
+description: "怎么在 Vite 中使用 tailwind 配置变量？"
+author: protogenesis
+---
+
 **问题**：在 tailwindcss 配置文件中配置的一些自定义变量，在项目文件中无法引用这个变量，例如：
 
 ```js

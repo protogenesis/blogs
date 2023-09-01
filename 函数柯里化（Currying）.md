@@ -1,3 +1,9 @@
+---
+title: "函数柯里化（Currying）"
+description: "高阶函数，HOC，前端进阶，currying function"
+author: protogenesis
+---
+
 柯里化是函数的一种高级实现。它不仅在 JavaScript 中用到，其他语言同样也有柯里化函数（Curring）。
 
 柯里化是函数的一种转换，它把一个函数 ```fn(a, b, c)``` 转换成 ```fn(a)(b)(c)```这样的调用形式。

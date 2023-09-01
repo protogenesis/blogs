@@ -1,3 +1,9 @@
+---
+title: "数字分隔符（Numeric separators）"
+description: "ECMA Script，ES 新语法，JavaScript"
+author: protogenesis
+---
+
 通常一长串数字我们很难一眼就知道它是多大，通过数字分隔符连接一串数字，可以使数字变得更具有可读性。
 
 ```javascript

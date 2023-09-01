@@ -1,3 +1,9 @@
+---
+title: "Nodejs 之事件循环"
+description: "深入理解事件循环，微任务，timer queue，I/O queue，I/O polling，check queue，close queue，nextTick"
+author: protogenesis
+---
+
 ### Node.js 之事件循环与任务队列
 
 #### Node.js 中的事件队列分为以下几种：

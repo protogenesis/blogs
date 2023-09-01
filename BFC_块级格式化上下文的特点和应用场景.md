@@ -1,3 +1,9 @@
+---
+title: "BFC 块级格式化上下文的特点和应用场景"
+description: "CSS 概念，边距塌陷，包含块"
+author: protogenesis
+---
+
 ##### BFC(Block Formatting Context)的特点是元素拥有独立的渲染区域,元素内部的内容(边距,浮动元素等)不会影响到外部元素。
 
 #### 哪些情况下会触发BFC

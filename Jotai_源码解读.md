@@ -1,7 +1,6 @@
 ---
 title: "Jotai 源码解读"
-description: "Jotai 源码，useReducer 用法，状态管理库"
-keywords: React, Jotai, useReducer, store, state management
+description: "React, Jotai 源码，useReducer 用法，store, 状态管理库"
 author: protogenesis
 ---
 

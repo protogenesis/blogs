@@ -1,3 +1,9 @@
+---
+title: "TypeScript 类型 tips"
+description: "TS 工具函数，TS 高级用法，深入理解 TypeScript"
+author: protogenesis
+---
+
 #### 从对象类型衍生一个 union 类型
 
 ```typescript

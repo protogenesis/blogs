@@ -1,3 +1,9 @@
+---
+title: "JavaScript 之对象类型转换"
+description: "对象转换，前端，toString，valueOf，Symbol.toPrimitive"
+author: protogenesis
+---
+
 #### 目录
 
 1. 对象类型转换时的分类

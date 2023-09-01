@@ -1,3 +1,9 @@
+---
+title: "正则表达式模式与符号 patterns and flags"
+description: "正则表达式基础，入门"
+author: protogenesis
+---
+
 ### 表达式（patterns）
 
 声明正则表达式有两种方式：

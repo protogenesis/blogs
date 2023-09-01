@@ -1,3 +1,9 @@
+---
+title: "JavaScript 延迟脚本之 async 和 defer 的区别"
+description: "script 标签属性，前端"
+author: protogenesis
+---
+
 #### avaScript延迟脚本之async和defer的区别
 
 defer 和 async 都是`<script>`标签的属性，属于 HTML4 的规范，作用是延迟加载脚本和异步执行 JS 代码。
