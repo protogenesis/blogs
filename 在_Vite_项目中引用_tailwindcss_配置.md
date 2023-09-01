@@ -57,6 +57,7 @@ module.exports = {
       },
       plugins: [],
     }
+    ```
 
 3. 在 vite.config.ts 中添加配置
 
@@ -68,6 +69,7 @@ module.exports = {
         },
         // other configs
       })
+      ```
 
 4. 在项目文件中使用
 
@@ -78,7 +80,8 @@ module.exports = {
 
    const fullConfig = resolveConfig(tailwindConfig)
    console.log(fullConfig.theme.colors.primary) // #17fd17
-
+   ```
+   
 ---
 
 供参考的模版项目地址：https://github.com/protogenesis/Renference-tailwind-configs-in-Vite
