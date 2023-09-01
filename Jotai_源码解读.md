@@ -1,3 +1,10 @@
+---
+title: "Jotai 源码解读"
+description: "Jotai 源码，useReducer 用法，状态管理库"
+keywords: React, Jotai, useReducer, store, state management
+author: protogenesis
+---
+
 [Jotai](https://jotai.org/) 是 React 生态中的一个状态管理库，它提供了便捷的 API，使用起来很灵活，下面是通过阅读源码发现的一些实现原理。
 
 
