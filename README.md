@@ -1,9 +1,3 @@
----
-title: "前端个人博客 | A front end programmer's blog."
-description: "技术总结，前端，protogenesis' blog"
-author: protogenesis
----
-
 # 目录
 
 [Jotai 源码解读](Jotai_源码解读.md)
