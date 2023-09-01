@@ -43,6 +43,7 @@ module.exports = {
    ```
 
 2. 修改 tailwind.config.js 导出格式
+
    ```js
    export default {
       content: ['./src/**/*.html', './src/**/*.vue', './src/**/*.tsx'],
@@ -56,7 +57,9 @@ module.exports = {
       },
       plugins: [],
     }
+
 3. 在 vite.config.ts 中添加配置
+
    ```js
      import postcss from './postcss.config.js'
      export default defineConfig({
@@ -65,7 +68,9 @@ module.exports = {
         },
         // other configs
       })
+
 4. 在项目文件中使用
+
    ```js
    import resolveConfig from 'tailwindcss/resolveConfig'
 
