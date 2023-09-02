@@ -3,20 +3,22 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="{{ page.description }}" />
+    <meta name="author" content="{{ page.author }}" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <title>{{ page.title }}</title>
   </head>
   <!-- <div class="navbar">
-    <a href="https://happypeter.github.io/binfo">Binfo</a>
+    <a href=""></a>
   </div> -->
 
-  <div id="wrapper" class="typo">
+  <div id="wrapper">
     <h1 class="post-title">{{ page.title }}</h1>
     {{ content }} <br />
     <footer>
       如果对本页有修正意见，欢迎
-      <a
-        href="https://github.com/happypeter/binfo/blob/mater/{{ page.name }}"
+      <a href="https://github.com/protogenesis/blogs/blob/mater/{{ page.name }}"
         >到 GitHub 上编辑本页</a
       >
     </footer>
