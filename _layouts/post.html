@@ -18,6 +18,7 @@
     />
 
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/typescript.min.js"></script>
     <title>{{ page.title }}</title>
   </head>
   <!-- <div class="navbar">
@@ -35,9 +36,15 @@
     </footer>
   </div>
 </html>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/typescript.min.js"></script> -->
 <script>
-  hljs.configure({})
-  hljs.highlightAll()
+  hljs.configure({
+    languages: ["typescript"], // Set the default language
+    theme: "github", // Set the default theme
+  })
+  // hljs.highlightAll()
+  document.addEventListener("DOMContentLoaded", (event) => {
+    // Initialize Highlight.js
+    hljs.initHighlightingOnLoad()
+  })
 </script>
 
