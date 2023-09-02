@@ -11,6 +11,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/styles/default.min.css"
     />
+    <!-- Include Theme CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/highlight.js@10.7.2/styles/github.min.css"
+    />
+
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/highlight.min.js"></script>
     <title>{{ page.title }}</title>
   </head>
@@ -31,6 +37,7 @@
 </html>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/typescript.min.js"></script> -->
 <script>
+  hljs.configure({})
   hljs.highlightAll()
 </script>
 
