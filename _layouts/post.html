@@ -6,7 +6,12 @@
     <meta name="description" content="{{ page.description }}" />
     <meta name="author" content="{{ page.author }}" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/styles/default.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/highlight.min.js"></script>
     <title>{{ page.title }}</title>
   </head>
   <!-- <div class="navbar">
@@ -24,4 +29,8 @@
     </footer>
   </div>
 </html>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/typescript.min.js"></script> -->
+<script>
+  hljs.highlightAll()
+</script>
 
