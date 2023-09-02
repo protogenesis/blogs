@@ -1,6 +1,8 @@
 ---
 layout: default
 title: protogenesis' blogs | 技术博客
+description: "中文前端博客，技术积累，踩坑总结"
+author: protogenesis
 ---
 
 ## 目录
