@@ -1,3 +1,6 @@
 /* start custom scss snippet */
-
+body ::selection {
+  background: #0078d7;
+  color: #fff;
+}
 /* end custom scss snippet */
