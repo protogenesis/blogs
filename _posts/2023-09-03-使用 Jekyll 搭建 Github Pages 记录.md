@@ -1,5 +1,5 @@
 ---
-title: "使用 Jekyll 搭建 Github Pages 指南"
+title: "使用 Jekyll 搭建 Github Pages 记录"
 not_excerpt: ""
 author: protogenesis
 ---
