@@ -35,7 +35,7 @@ let user = {
 };
 ```
 
-![t6.png](/assets/images/garbageCollecting1.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting1.webp)
 
 现在全局变量`user`引用了一个对象`{name: 'john'}`(暂时把它称作 John )，John 的`name`属性保存着一个原始数据，他只存在于 John 这个对象的内部。
 
@@ -45,7 +45,7 @@ let user = {
 user = null;
 ```
 
-![t7.png](/assets/images/garbageCollecting2.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting2.webp)
 
 现在 John 这个对象就再也访问不到了，因为一旦不存在被引用，垃圾采集器就会删除掉这个数据，并且释放内存。
 
@@ -61,7 +61,7 @@ let user = {
 let admin = user;
 ```
 
-![t8.png](/assets/images/garbageCollecting3.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting3.webp)
 
 如果我们继续刚刚的步骤：
 
@@ -99,7 +99,7 @@ let family = marry({
 
 最终在内存中的结构为：
 
-![t9.png](/assets/images/garbageCollecting4.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting4.webp)
 
 现在我们移除掉两个引用：
 
@@ -108,19 +108,19 @@ delete family.father;
 delete family.mother.husband;
 ```
 
-![t11.png](/assets/images/garbageCollecting5.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting5.webp)
 
 如果存在两个引用，只删除一个引用是没有用的，因为所有的对象仍然具有可访问性。
 
 但是如果我们把两个都删除，那么`John`这个对象就不再被引用了。
 
-![t12.png](/assets/images/garbageCollecting6.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting6.webp)
 
 虽然`John`这个对象也引用了另外的对象，但是 John 已经不能够被访问到了，所以它和它的属性都会被删除并且不可访问。
 
 在垃圾采集完后，family 的结构是这样子的：
 
-![t13.png](/assets/images/garbageCollecting7.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting7.webp)
 
 ##### 不可到达的地方（Unreachable island）
 
@@ -134,7 +134,7 @@ family = null;
 
 现在想象一下，marry 函数返回的整个对象都不再被引用。
 
-![t14.png](/assets/images/garbageCollecting8.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting8.webp)
 
 这个例子阐述了可达性这个概念是非常重要的。
 
@@ -156,25 +156,25 @@ family = null;
 
 举个例子，让对象的结构看起来是这样子的:
 
-![t1.png](/assets/images/garbageCollecting9.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting9.webp)
 
 我们可以清楚的看到在右边一块"不可到达的地方"，那么"标记清除"垃圾采集器是怎么处理的呢？
 
 第一步是标记这些根（roots）:
 
-![t2.png](/assets/images/garbageCollecting10.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting10.webp)
 
 然后标记这些被根所引用的对象：
 
-![t3.png](/assets/images/garbageCollecting11.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting11.webp)
 
 然后继续迭代标记，直到没有：
 
-![t4.png](/assets/images/garbageCollecting12.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting12.webp)
 
 那些不能被被标记到的对象，会被认为是不具有可达性的并且会被删除：
 
-![t5.png](/assets/images/garbageCollecting13.webp)
+![垃圾清理](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/garbageCollecting13.webp)
 
 我们可以想象一下，一桶油漆从根处开始倒，油漆顺着那些被根所引用的对象流去并且标记所有具有可达性的对象。那些没有被标记的就会被删除掉。
 

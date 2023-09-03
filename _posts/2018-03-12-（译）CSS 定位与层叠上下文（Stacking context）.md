@@ -21,13 +21,13 @@ tags: [CSS]
 
 它们的层叠顺序如下图，在这里作者使用了一些负的外边距来强制元素覆盖，但是没有使用定位。越是后面渲染的元素，它显示的就越靠前。
 
-![image](/assets/images/stackingContext1.webp)
+![层叠上下文 1](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/stackingContext1.webp)
 
 当你使用定位时，这种表现就会改变。浏览器首先绘制没有使用定位的元素，然后绘制使用定位的元素。默认情况下，使用定位的元素会显示在没有使用定位的元素前面，在下图中，将前面的两个元素设置了定位 `position: relative`，它们的显示顺序就会变得靠前，覆盖住第三个没有定位的元素（position 属性的默认值是 static，即没有定位），即使位于 HTML 结构中的顺序没有改变。
 
 注意这些定位元素中，第二个元素仍然显示在第一个元素前面。首先定位元素会显示在正常元素前面，然后根据 HTML 结构中的顺序来决定定位元素的显示，也就是后面的靠前显示。
 
-![image](/assets/images/stackingContext2.webp)
+![层叠上下文 2](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/stackingContext2.webp)
 
 ### 什么是层叠上下文
 
@@ -48,7 +48,7 @@ tags: [CSS]
 
 上面 HTML 结构中包含三个类名为 box 的元素，其中的两个会使用定位，并且设置它们的 z-index 值为 1。第一个 .box 元素中的 .absolute 子元素会使用定位并且设置 z-index 的值为 100；即使 .abosolute 的的 z-index 值很高，但是它仍然会被第二个 .box 元素覆盖，因为它的父元素 - 第一个 .box 元素的层叠上下文位于第二个 .box 元素的层叠上下文的前面。
 
-![图片示例](/assets/images/stackingContext3.webp)
+![层叠上下文 3](https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/stackingContext3.webp)
 
 以下为 CSS 代码
 

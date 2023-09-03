@@ -34,12 +34,12 @@ key: page-about
   <div class="grid grid--p-3">
     <div class="cell cell--12">
       <div>
-        <img class="image image--lg" src="/assets/images/wx_code.jfif"/>
+        <img class="image image--lg" src="https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/wx_code.jfif"/>
       </div>
     </div>
     <div class="cell cell--12">
       <div>
-        <img class="image image--lg" src="/assets/images/whatsapp.jfif"/>
+        <img class="image image--lg" src="https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/whatsapp.jfif"/>
       </div>
     </div>
   </div>
