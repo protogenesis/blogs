@@ -1,6 +1,7 @@
 .layout--404 {
   .sign {
     display: table;
+    text-align: center;
     margin: map-get($spacers, 4) auto;
     margin-top: map-get($spacers, 5);
     h1 {
