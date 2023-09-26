@@ -26,17 +26,12 @@ titles:
 key: page-about
 ---
 
-你好，这里是我的博客，我叫 liao，居住在深圳，一名前端开发工程师。
+你好，我是一名前端开发工程师。
 
-我目前正在找工作，如果你的公司有需求，可以通过微信或者 whatsapp 联系我：
+ 交流方式：
 
 <div class="grid-container">
   <div class="grid grid--p-3">
-    <div class="cell cell--12">
-      <div>
-        <img class="image image--lg" src="https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/wx_code.jfif"/>
-      </div>
-    </div>
     <div class="cell cell--12">
       <div>
         <img class="image image--lg" src="https://raw.githubusercontent.com/protogenesis/blogs/gh-pages/assets/images/whatsapp.jfif"/>
